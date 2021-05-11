@@ -7,7 +7,6 @@ quarter = 'local'
 pasta = 'Local'
 book_name = 'CompTSF_' + quarter
 pos_label = 1
-#average = 'weighted'
 
 from sklearn.model_selection import StratifiedKFold
 cv = StratifiedKFold(10,random_state=1,shuffle=True)
